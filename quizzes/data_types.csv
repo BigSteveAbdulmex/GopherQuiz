@@ -1,0 +1,19 @@
+question,option1,option2,option3,option4,answer
+What is the Go keyword used to declare an integer type?,int,integer,num,number,1
+Which of the following represents a 64-bit floating-point number in Go?,float,float32,float64,double,3
+What is the Go keyword for a sequence of characters?,char,string,text,str,2
+Which Go keyword represents a boolean value?,bool,boolean,bit,logic,1
+What is the default zero value for an integer type in Go?,nil,1,0,undefined,3
+What is the default zero value for a boolean type in Go?,true,false,nil,0,2
+Which of the following is NOT a basic numeric type in Go?,byte,rune,complex128,object,4
+What Go type is an alias for uint8?,int8,rune,byte,string,3
+What Go type represents a Unicode code point?,char,string,rune,byte,3
+Which of the following can store multiple values of the same type?,struct,map,slice,interface,3
+What is the Go keyword for an ordered sequence of elements with a fixed length?,slice,array,list,tuple,2
+What is the Go keyword for a dynamic array that can grow or shrink?,array,map,slice,list,3
+What is the Go keyword for a collection of key-value pairs?,struct,array,slice,map,4
+Which of the following is a pointer type in Go?,ptr,ref,*int,&value,3
+What is the size in bits of a 'rune' in Go?,8,16,32,64,3
+Which of the following can store both real and imaginary parts of a complex number?,float64,complex64,real,imag,2
+What is the underlying type of a 'byte' in Go?,int8,uint8,int16,uint16,2
+What happens if you try to access an element of an array with an index out of bounds in Go?,It returns nil,It panics at runtime,It returns 0,It wraps around,2

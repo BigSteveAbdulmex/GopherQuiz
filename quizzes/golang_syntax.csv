@@ -1,0 +1,19 @@
+question,option1,option2,option3,option4,answer
+What keyword is used to declare a variable in Go?,var,const,type,func,1
+Which of the following is the correct way to declare a short variable in Go?,variable := 10,var variable = 10,variable = 10,int variable = 10,1
+What character terminates most statements in Go?,;,.,\n,:,3
+Which keyword is used to define a function in Go?,class,def,func,method,3
+How do you declare a constant in Go?,let PI = 3.14,const PI float64 = 3.14,final PI = 3.14,readonly PI float64 = 3.14,2
+What is the syntax for a for loop in Go?,for (i=0; i<10; i++),for i := 0; i < 10; i++,for i in range(10),loop i from 0 to 9,2
+How do you define a struct in Go?,class MyStruct {},struct MyStruct {},type MyStruct struct {},typedef struct MyStruct {},3
+What is the syntax to access a field named 'Name' in a struct variable 'person'?,person.Name,person->Name,Name of person,person['Name'],1
+Which of the following is used to define an interface in Go?,interface,protocol,contract,implements,1
+What is the correct way to declare a slice of integers in Go?,int[] s,slice<int> s,var s []int,var s = slice[int]{},3
+What is the syntax for a switch statement in Go?,switch (variable) { case value: ... },switch variable { case value: ... },switch variable: case value: ...,switch variable then case value:,2
+Which keyword is used to handle errors in Go?,try...catch,handle,error,if err != nil,4
+What is the keyword used to start a goroutine?,thread,async,go,parallel,3
+Which of the following is NOT a valid basic data type in Go?,integer,float64,string,bool,1
+What is the zero value of an integer type in Go?,0,null,undefined,an empty string,1
+What is the zero value of a boolean type in Go?,true,false,nil,0,2
+What is the zero value of an int in Go?,0,1,-1,nil,1
+Which keyword declares a variable in Go?,let,var,const,define,2
