@@ -1,0 +1,17 @@
+question,option1,option2,option3,option4,answer
+What is an array in Go?,A dynamic sequence of elements,A fixed-size sequence of elements of the same type,A collection of key-value pairs,A structure containing different data types,2
+How do you declare an array of 5 integers in Go?,var numbers [5]int,numbers := array[5]int,int numbers[5],var numbers = array(5)int,1
+How do you access the element at the third index of an array named `data`?,data[3],data(3),data.get(3),data->3,1
+What is the index of the first element in a Go array?,0,1,-1,first,1
+What is the index of the last element in an array of size `n`?,n,n-1,n+1,last,2
+What happens if you try to access an element of an array with an index out of bounds?,It returns the zero value,It panics at runtime,It returns an error,It wraps around,2
+What happens if you initialize an array with fewer elements than its declared size?,The remaining elements are uninitialized,The remaining elements are filled with a default value of 0,It causes a compile error,The array size is automatically adjusted,2
+How do you determine the number of elements in an array named `arr`?,len(arr),size(arr),arr.length(),arr.size,1
+Are arrays in Go passed by value or by reference to functions?,By value,By reference,It depends on the size,It depends on the type,1
+Can you resize an array after it's been created in Go?,Yes,No,Only if it's empty,Only by creating a new array and copying elements,2
+How do you compare two arrays for equality in Go?,using == operator,using the `equals()` method,using the `cmp.Equal()` function,You cannot directly compare arrays,1
+What is an array literal in Go?,A way to declare and initialize an array with values,A keyword for defining array types,A function that creates an array,A comment describing an array,1
+What is the type of an array that stores strings?,array of string,[string]array,[...]string,[n]string,4
+Can you have multi-dimensional arrays in Go?,Yes,No,Only for numeric types,Only for string types,1
+Are the elements of an array stored contiguously in memory?,Yes,No,It depends on the type,It depends on the size,1
+What is the relationship between arrays and slices in Go?,Slices are built on top of arrays,Arrays are built on top of slices,They are independent data structures,Slices are a subset of arrays,1

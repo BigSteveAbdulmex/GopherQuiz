@@ -1,0 +1,20 @@
+question,option1,option2,option3,option4,answer
+What is the purpose of testing in Go?,To ensure the correctness and reliability of code,To improve performance,To reduce code size,To increase code complexity,1
+Which package is used for writing tests in Go?,testing,test,unittest,go.test,1
+How do you name a test file in Go?,filename_test.go,test_filename.go,filename.test,test.filename.go,1
+What is the signature of a test function in Go?,func TestXxx(t *testing.T) {},func testXxx(t *testing.T) {},func XxxTest(t testing.T) {},func TestXxx() {},1
+What does the `*testing.T` type represent in a test function?,The testing framework context,The result of the test,The function being tested,A global variable,1
+Which method is used to report a test failure in Go?,t.Error(),t.Fail(),t.AssertFalse(),t.Exception(),1
+Which method is used to report a test failure and continue execution?,t.Error(),t.FailNow(),t.Fatal(),t.Assert(),1
+Which method is used to report a test failure and stop execution immediately?,t.Fatal(),t.Fail(),t.Panic(),t.Abort(),1
+What is a table-driven test in Go?,A test that uses a table of inputs and expected outputs to test a function,A test that uses a database,A test that runs in parallel,A test that tests user interfaces,1
+How do you define a test case in a table-driven test?,As a struct with input and expected output fields,As a slice of strings,As a map,As a JSON object,1
+What is the purpose of `t.Run` in Go tests?,To run subtests within a test function,To run tests concurrently,To skip a test,To mark a test as pending,1
+What is a benchmark test in Go?,A test that measures the performance of a function,A test that checks for errors,A test that tests the user interface,A test that generates code coverage reports,1
+How do you name a benchmark test function in Go?,func BenchmarkXxx(b *testing.B) {},func benchXxx(b *testing.B) {},func XxxBenchmark(b testing.B) {},func BenchmarkXxx() {},1
+What does the `*testing.B` type represent in a benchmark function?,The benchmarking framework context,The result of the benchmark,The function being benchmarked,A global variable,1
+What does the `b.N` variable represent in a benchmark loop?,The number of iterations the benchmark should run,The time limit for the benchmark,The number of CPU cores to use,The memory usage limit,1
+How do you reset the timer in a benchmark before starting the actual measurement?,b.ResetTimer(),b.Start(),b.Begin(),b.Reset(),1
+What is code coverage in testing?,A measure of how much of the code is executed by the tests,A measure of the performance of the code,A measure of the complexity of the code,A measure of the readability of the code,1
+How do you generate a code coverage report in Go?,go test -cover,go test -coverage,go cover,go test coverage,1
+What is fuzzing in Go testing?,A testing technique that automatically generates random inputs to try to find bugs,A technique for manually testing code,A technique for testing user interfaces,A technique for optimizing code,1

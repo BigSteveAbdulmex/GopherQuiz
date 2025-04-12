@@ -1,0 +1,17 @@
+question,option1,option2,option3,option4,answer
+What keyword is used to declare a constant in Go?,var,const,type,func,2
+Can you change the value of a constant after it's declared?,Yes,No,Only if it's a numeric constant,Only within a specific scope,2
+What happens if you try to assign a value of a different type to a constant after declaration?,It causes a runtime error,It causes a compile error,The value is implicitly converted,It works without any issues,2
+What is an untyped constant in Go?,A constant without any associated type,A constant whose type can change,A constant declared without an initial value,A constant that can hold any type,1
+When is the value of a constant determined?,At runtime,At compile time,When the program starts,When the constant is first used,2
+Which of the following is a valid constant declaration?,const count int,constant count = 10,const count := 10,count const int = 10,1
+What is the zero value of a constant?,Constants do not have zero values,The zero value of their underlying type,nil,"",2
+Can you declare a constant inside a function?,Yes,No,Only if it's a numeric constant,Only if it's a string constant,1
+What is the scope of a constant declared outside any function?,Global,Local,Block,Function,1
+What is the scope of a constant declared inside a function?,Global,Package,Block,File,3
+Can you use the short variable declaration `:=` to declare a constant?,Yes,No,Only for numeric constants,Only for string constants,2
+What is an iota in Go constants?,A keyword for declaring variables,A keyword representing successive integer constants in a const block,A keyword for defining interfaces,A keyword for error handling,2
+What is the starting value of iota in a const block?,-1,0,1,undefined,2
+Can you redeclare a constant with the same name in the same scope?,Yes,No,Only if the type is different,Only if the value is different,2
+What is the purpose of grouping constant declarations in a `const` block?,For better organization,To allow different types of constants in one line,To make them global,To allow short variable declaration,1
+Are constants mutable in Go?,Yes,No,Only numeric constants,Only string constants,2

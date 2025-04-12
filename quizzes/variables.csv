@@ -1,0 +1,19 @@
+question,option1,option2,option3,option4,answer
+What keyword is used to declare a variable in Go?,var,const,type,func,1
+Which of the following is the correct way to declare a short variable in Go?,variable := 10,var variable = 10,variable = 10,int variable = 10,1
+What is the zero value of an integer type in Go?,0,nil,undefined,"",1
+What is the zero value of a string type in Go?,"",nil,"empty",0,2
+What is the scope of a variable declared inside a function?,Global,Package,Block,File,3
+What is the scope of a variable declared outside any function?,Global,Local,Block,Function,1
+Which operator is used to assign a value to a variable?,=,==,:=,->,1
+Can you redeclare a variable using `:=` within the same scope?,Yes,No,Only if the type is the same,Only if the value is different,2
+What happens if you declare a variable but don't initialize it?,It causes a compile error,It is assigned a default zero value,It is assigned a random value,It remains unassigned,2
+Which of the following variable names is invalid in Go?,_count,Count,1stValue,total_items,3
+How do you declare a variable of type boolean?,var flag bool,bool flag,var flag = boolean,flag := true,1
+What is the size of an `int` type in Go?,It's fixed at 32 bits,It's fixed at 64 bits,It depends on the architecture,It's fixed at 16 bits,3
+How do you declare a variable of type float64?,var pi float64,float64 pi,var pi = float,pi := 3.14,1
+What is type inference in Go variable declaration?,The compiler automatically deduces the type,You must explicitly declare the type,Go variables don't have types,Types are inferred at runtime,1
+Can you change the type of a variable after it's declared in Go?,Yes,No,Only for certain types,Only within a specific scope,2
+How do you declare a pointer variable in Go?,var ptr *int,var ptr int*,ptr *int,*ptr int,1
+What is the zero value of a pointer type in Go?,0,"",nil,undefined,3
+What is the purpose of the `&` operator when used with a variable?,It returns the value of the variable,It returns the type of the variable,It returns the memory address of the variable,It performs a bitwise AND operation,3

@@ -1,0 +1,15 @@
+question,option1,option2,option3,option4,answer
+What is the standard way to represent errors in Go?,Using the built-in `error` interface,Using integer error codes,Using string error messages,Using custom exception types,1
+How is the `error` interface defined in Go?,type error interface { Error() string },interface error { Error string },type Error string,type error struct { msg string },1
+What is the idiomatic way to check for errors after a function call that can return an error?,if err != nil { ... },if err is not nil { ... },check err { ... },try { ... } catch err { ... },1
+Which package in the Go standard library provides functions for creating and working with errors?,errors,fmt,runtime,log,1
+Which function from the `fmt` package is commonly used to wrap errors?,fmt.Errorf(),fmt.NewError(),fmt.Wrap(),fmt.WithError(),1
+What is the `%w` verb used for in `fmt.Errorf()`?,To wrap an error,To print a string,To print an integer,To print the type of a variable,1
+How do you retrieve the underlying error from a wrapped error?,Using `errors.Unwrap()`,Using `err.Unwrap()`,Using `errors.Cause()`,Using `err.Cause()`,1
+What is a custom error type in Go?,A struct that implements the `error` interface by having an `Error() string` method,A string type used for errors,An integer type used for error codes,A special keyword for defining errors,1
+What are the benefits of using custom error types?,You can add more context and data to the error,You can use type assertions to get more information about the error,They are more performant than sentinel errors,They are automatically wrapped,1
+What happens if a function that can return an error doesn't handle an error internally?,The error is returned to the calling function,The program crashes,The error is silently ignored,A default error is returned,1
+What is the purpose of the `panic` and `recover` mechanism in Go?,To handle exceptional situations that the program cannot gracefully recover from,To handle regular errors,To improve performance,To define custom error types,1
+When should you typically use `panic` in Go?,For unrecoverable errors or programmer errors,For expected errors like file not found,As a way to return errors from a function,To signal the end of a program,1
+What does the `recover` function do in Go?,It allows a goroutine to regain control after a panic,It returns the last error that occurred,It prevents panics from happening,It restarts the program,1
+Where should `recover` typically be called?,Inside a `defer`red function,In the `main` function,At the beginning of every function,At the end of the program,1

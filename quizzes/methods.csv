@@ -1,0 +1,13 @@
+question,option1,option2,option3,option4,answer
+What is a method in Go?,A function associated with a specific type (the receiver),A function that operates on global variables,A function defined within another function,A special type of variable,1
+How do you declare a method on a struct type `Rectangle`?,func (r Rectangle) Area() float64 { ... },func Area(r Rectangle) float64 { ... },method (r Rectangle) Area() float64 { ... },func Rectangle.Area(r) float64 { ... },1
+What is the receiver in a Go method?,The type that the method is associated with,The return value of the method,The parameters passed to the method,A global variable accessed by the method,1
+What are the two types of receivers in Go methods?,Value receivers and pointer receivers,Value receivers and reference receivers,Pointer receivers and interface receivers,Static receivers and dynamic receivers,1
+When should you use a value receiver for a method?,When the method does not need to modify the receiver's state,When the method needs to modify the receiver's state,For small receiver types to avoid copying,For large receiver types to avoid copying,1
+When should you use a pointer receiver for a method?,When the method needs to modify the receiver's state,When the method does not need to modify the receiver's state,For small receiver types to avoid copying,For all methods,1
+How do you call a method on a value receiver?,variable.MethodName(),variable->MethodName(),MethodName(variable),variable:MethodName(),1
+How do you call a method on a pointer receiver?,pointer.MethodName(),(*pointer).MethodName(),MethodName(pointer),All of the above,4
+What is the purpose of methods in object-oriented programming?,To associate behavior with data,To define the structure of data,To create global functions,To manage memory,1
+Are methods considered part of the type definition in Go?,Yes,No,Only for struct types,Only for pointer receiver methods,1
+How do you define a method on a named type alias?,type MyInt int; func (m MyInt) Double() MyInt { ... },func (MyInt m) Double() MyInt { ... },method (m MyInt) Double() MyInt { ... },func MyInt.Double(m) MyInt { ... },1
+Can methods access the unexported fields of the receiver type if they are defined in the same package?,Yes,No,Only through exported methods,Only if the receiver is a pointer,1

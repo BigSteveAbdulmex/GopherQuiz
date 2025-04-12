@@ -1,0 +1,17 @@
+question                                                             , option1, option2, option3    , option4    , answer
+Which operator performs addition in Go?                              , +      , ++     , add        , plus       ,      1
+Which operator performs subtraction in Go?                           , -      , --     , sub        , minus      ,      1
+Which operator performs multiplication in Go?                        , *      , **     , mul        , times      ,      1
+Which operator performs division in Go?                              , /      , //     , div        , divide     ,      1
+Which operator performs the modulo (remainder) operation in Go?      , %      , mod    , rem        , remainder  ,      1
+Which operator is used for equality comparison in Go?                , =      , ==     , ===        , equals     ,      2
+Which operator is used for inequality comparison in Go?              , !=     , <>     , !equals    , not equal  ,      1
+Which operator performs logical AND in Go?                           , &&     , and    , &          , AND        ,      1
+Which operator performs logical OR in Go?                            , ||     , or     , |          , OR         ,      1
+Which operator performs logical NOT in Go?                           , !      , not    , ~          , NOT        ,      1
+Which operator performs a bitwise AND operation in Go?               , &      , &&     , AND        , bitwise_and,      1
+Which operator performs a bitwise OR operation in Go?                , |      , ||     , OR         , bitwise_or ,      1
+Which operator performs a bitwise XOR (exclusive OR) operation in Go?, ^      , ^^     , XOR        , bitwise_xor,      1
+Which operator performs a left bit shift operation in Go?            , <<     , <--    , left_shift , ls         ,      1
+Which operator performs a right bit shift operation in Go?           , >>     , -->    , right_shift, rs         ,      1
+Which operator is used for short variable declaration and assignment?, =      , ==     , :=         , ->         ,      3

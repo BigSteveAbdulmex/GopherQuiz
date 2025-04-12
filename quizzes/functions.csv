@@ -1,0 +1,18 @@
+question,option1,option2,option3,option4,answer
+What keyword is used to define a function in Go?,func,def,function,fn,1
+What is the basic syntax for declaring a function in Go?,func functionName(parameters) returnType { body },function functionName(parameters) : returnType { body },function functionName(parameters) -> returnType { body },functionName(parameters) returnType { body },1
+Can a Go function have zero parameters?,Yes,No,Only if it doesn't return any value,Only if it's a main function,1
+How do you specify the type of a parameter in a Go function?,parameterName type,type parameterName,parameterName : type,type of parameterName,1
+Can a Go function have multiple return values?,Yes,No,Only for certain types,Only if they are returned as a struct,1
+What happens if a function declares return values but doesn't explicitly return them?,It causes a compile error,It returns the zero values of the declared types,It returns nil,It returns random values,2
+What is a variadic function in Go?,A function that can accept a variable number of arguments of the same type,A function that can return a variable number of arguments,A function that takes no arguments,A function that returns multiple types,1
+How do you declare a variadic parameter in a Go function?,...type,type...,[]type,type[],1
+What is the type of a variadic parameter inside the function?,A single value of that type,A slice of that type,An array of that type,A pointer to the first argument,2
+What is a named return value in a Go function?,A return value that is declared with a name in the function signature,A return value that is assigned to a variable before returning,A return value that has a specific name in the calling function,A return value that is always a pointer,1
+What is the benefit of using named return values?,It can improve code readability,It can improve performance,It allows returning multiple values of different types,It is required for all functions with return values,1
+What is a function literal (anonymous function) in Go?,A function defined without a name,A function defined outside the `main` package,A function that can only be called once,A function that returns another function,1
+How do you declare and call an anonymous function?,func() { ... }(),var f = func() { ... }; f(),function() { ... }(),call anonymous func { ... },2
+Can an anonymous function access variables from its surrounding scope (closure)?,Yes,No,Only read-only access,Only if the variables are explicitly passed,1
+What is a higher-order function in Go?,A function that takes one or more functions as arguments or returns a function as its result,A function that operates on higher-precision numbers,A function that is called by other functions,A function defined within another function,1
+What is the purpose of the `defer` keyword when used with a function call?,To ensure the function call is executed after the surrounding function returns,To execute the function call immediately,To execute the function call in a separate goroutine,To prevent the function call from executing,1
+What is the `init` function in Go?,A special function that is automatically executed before the `main` function in each package,The first function that is executed in a Go program,A function used for initializing variables,A function that must be called explicitly,1

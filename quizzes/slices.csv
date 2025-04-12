@@ -1,0 +1,11 @@
+question,option1,option2,option3,option4,answer
+What is a slice in Go?,A fixed-size sequence of elements,A dynamic segment of an underlying array,A collection of key-value pairs,A structure containing different data types,2
+What is the index of the first element in a slice?,0,1,-1,first,1
+What is the index of the last element in a slice `s`?,len(s),len(s)-1,cap(s)-1,last,2
+What happens if you try to access an element of a slice with an index out of bounds?,It returns the zero value,It panics at runtime,It returns an error,It wraps around,2
+How do you determine the number of elements in a slice named `s`?,len(s),size(s),s.length(),s.size,1
+How do you determine the capacity of a slice named `s`?,len(s),size(s),cap(s),capacity(s),3
+What is the capacity of a slice?,The number of elements currently in the slice,The maximum number of elements the underlying array can hold,The size of the slice in bytes,The default size of a slice,2
+Are slices in Go passed by value or by reference to functions?,By value,By reference,It depends on the size,It depends on the type,2
+What happens if you append to a slice and its capacity is full?,A new underlying array is allocated,The last element is overwritten,It causes a runtime error,The capacity doubles automatically,1
+What is slice reslicing?,Creating a new slice that refers to a portion of an existing slice or array,Increasing the capacity of a slice,Removing elements from a slice,Copying a slice,1

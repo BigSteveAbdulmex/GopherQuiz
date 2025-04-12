@@ -1,0 +1,20 @@
+question,option1,option2,option3,option4,answer
+What is the primary purpose of the `go build` command?,To compile Go source code into an executable binary,To run Go tests,To format Go code,To manage Go dependencies,1
+What is the purpose of the `go test` command?,To run unit tests for Go packages,To build Go packages,To install Go packages,To list Go packages,1
+What does the `go fmt` command do?,Formats Go source code according to the standard Go style,Checks for syntax errors,Runs Go programs,Generates documentation,1
+What is the purpose of the `go get` command (before Go modules)?,To download and install Go packages and their dependencies,To list installed packages,To update Go packages,To remove Go packages,1
+What is the purpose of the `go mod` command?,To manage Go modules and dependencies,To manage environment variables,To format Go code,To run Go programs,1
+What does the `go mod init` command do?,Initializes a new Go module in the current directory,Initializes a new Go project,Downloads all dependencies,Creates a new Go file,1
+What is the `go mod tidy` command used for?,To clean up unused dependencies from the `go.mod` file,To format the `go.mod` file,To update all dependencies,To list all dependencies,1
+What does the `go list` command do?,Lists information about Go packages and modules,Lists all functions in a Go file,Lists all environment variables,Lists all installed Go tools,1
+What is the purpose of the `go doc` command?,To display documentation for Go packages and symbols,To generate documentation,To format documentation,To edit documentation,1
+What is the `go vet` command?,A static analysis tool that reports suspicious constructs in Go code,A tool for profiling Go code,A tool for debugging Go code,A tool for optimizing Go code,1
+What is the `go install` command?,To compile and install Go packages and their dependencies,To run Go programs,To format Go code,To test Go packages,1
+What does the `go clean` command do?,Removes object files and other files created by the build process,Cleans up unused dependencies,Formats Go code,Removes all Go files,1
+What is the purpose of the `go tool pprof` command?,To profile Go programs and analyze performance,To format Go code,To manage Go modules,To handle errors,1
+What is the `go generate` command?,A command that invokes generators to pre-process Go source files,A command for generating random numbers,A command for generating code coverage reports,A command for generating documentation,1
+What is the default output location for a binary built with `go build`?,The current directory,The `$GOPATH/bin` directory (before Go modules),The `$GOROOT/bin` directory,A temporary directory,1
+What is the purpose of the `-o` flag in the `go build` command?,To specify the output file name or location,To optimize the build,To include debug information,To exclude certain files,1
+What does the `go env` command do?,Displays Go environment information,Sets Go environment variables,Formats Go environment variables,Checks Go environment variables,1
+What is the purpose of the `GOPROXY` environment variable?,To specify a proxy server for downloading Go modules,To set the `GOPATH`,To define the `GOROOT`,To enable Go modules,1
+What is the purpose of the `CGO_ENABLED` environment variable?,To enable or disable C code interoperability,To enable code coverage,To enable Go modules,To set the Go version,1

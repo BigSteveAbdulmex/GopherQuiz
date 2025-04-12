@@ -1,0 +1,15 @@
+question,option1,option2,option3,option4,answer
+Which package provides reflection capabilities in Go?,reflect,typeinfo,meta,inspect,1
+What is the `reflect.Type` in Go?,An interface representing the type of a value,A struct representing a type,A string representation of a type,A function that returns the type of a value,1
+How do you get the `reflect.Type` of a variable `v`?,reflect.TypeOf(v),typeOf(v),v.Type(),reflect.GetType(v),1
+What is the `reflect.Value` in Go?,A struct representing the value of a variable,An interface representing the value of a variable,A pointer to the value of a variable,A function that returns the value of a variable,2
+How do you get the `reflect.Value` of a variable `v`?,reflect.ValueOf(v),valueOf(v),v.Value(),reflect.GetValue(v),1
+How do you get the `Kind` of a `reflect.Value` named `value`?,value.Kind(),Kind(value),reflect.Kind(value),reflect.ValueOf(value).Kind(),4
+What does it mean for a `reflect.Value` to be addressable?,That you can obtain a pointer to it,That it has a known memory address,That it can be used as a key in a map,That it can be passed to a function,1
+What does it mean for a `reflect.Value` to be settable?,That you can change its underlying value,That you can read its value,That it is of a pointer type,That it is exported,1
+How do you check if a `reflect.Value` named `value` is settable?,value.CanSet(),CanSet(value),reflect.CanSet(value),reflect.ValueOf(value).CanSet(),4
+How do you set the value of a settable `reflect.Value` named `value` to `x`?,value.Set(reflect.ValueOf(x)),value = reflect.ValueOf(x),value.Set(x),value := x,1
+What is a struct tag in Go?,A string literal attached to a struct field to provide metadata about the field,A comment describing the struct field,A way to define methods for the struct field,A type alias for the struct field,1
+How do you access the struct tag of a struct field using reflection?,Using `reflect.Type.Field().Tag`,Using `reflect.Value.Tag()`,Using `field.Tag`,Using `structTag(field)`,1
+What is the purpose of the `reflect.Select` function?,To allow a goroutine to wait on multiple channel operations,To select a specific field from a struct,To choose between different types,To handle errors during reflection,1
+When should you use reflection in Go?,When you need to work with types or values whose type is unknown at compile time,When you want to optimize code performance,Whenever possible to make code more concise,For all data manipulation tasks,1

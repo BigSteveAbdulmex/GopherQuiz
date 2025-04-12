@@ -1,0 +1,9 @@
+question,option1,option2,option3,option4,answer
+What is the zero value of a map in Go?,nil,an empty map,0,"",1
+Which of the following is the correct way to declare a map with string keys and integer values?,var m map[string]int,var m = map[string]int{},m := make(map[string]int),All of the above,4
+What happens if you try to access a key that doesn't exist in a Go map?,It returns the zero value of the value type,It returns nil,It causes a panic,It returns an error,1
+In what order are elements typically iterated in a Go map using `range`?,Insertion order,Sorted order by key,Unspecified and potentially random order,Reverse insertion order,3
+What is the function to get the number of elements in a map called `counts`?,len(counts),size(counts),counts.length(),counts.size(),1
+How do you create a copy of a Go map?,By iterating through the original map and assigning key-value pairs to a new map,Using the `copy()` function,By direct assignment (=),Maps cannot be copied,1
+What happens if you assign one map variable to another?,Both variables will refer to the same underlying map,A new copy of the map is created,It causes a compile error,Only the key-value pairs are copied,1
+What is a common use case for maps in Go?,Storing configuration data,Implementing caches,Counting occurrences of items,All of the above,4

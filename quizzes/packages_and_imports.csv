@@ -1,0 +1,11 @@
+question,option1,option2,option3,option4,answer
+What is a package in Go?,A collection of related source files in the same directory,A single Go source file,A compiled library,A keyword for organizing code,1
+How do you declare the package name for a Go source file?,package mypackage,pkg mypackage,mypackage,file mypackage,1
+What is a package alias in Go?,A different name used to refer to an imported package locally,The original name of the package,A shortened version of the package path,A way to import specific functions,1
+What is the blank identifier `_` used for in an import statement?,To import a package only for its side effects (initialization),To ignore the package,To give the package a temporary name,To import all subpackages,1
+What are unexported identifiers in a Go package?,Identifiers that start with a lowercase letter,Identifiers that start with an uppercase letter,Identifiers marked with `internal`,Private identifiers,1
+What is the standard way to structure a Go project with multiple packages?,Each package in its own subdirectory,All files in the root directory,Using a separate `pkg` directory for all packages,Using a flat structure,1
+What is the role of the `go.mod` file in Go projects using modules?,It defines the module path and lists dependencies,It contains build instructions,It stores environment variables,It lists all packages in the project,1
+What does the `go mod tidy` command do?,Removes unused dependencies and adds missing ones in `go.mod`,Formats the `go.mod` file,Updates all dependencies to the latest versions,Lists all dependencies,1
+What is the `GOPATH` environment variable's relevance in modern Go development with modules?,It is largely superseded by Go modules but can still affect some legacy behavior,It is the primary way Go resolves imports,It defines the location of the Go SDK,It is used for setting build flags,1
+What is the `GOROOT` environment variable?,The directory where the Go SDK is installed,The root directory of the current Go project,The location of the Go module cache,A list of commonly used Go packages,1

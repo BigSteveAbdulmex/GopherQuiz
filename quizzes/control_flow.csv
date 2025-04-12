@@ -1,0 +1,20 @@
+question,option1,option2,option3,option4,answer
+Which keyword starts an `if` statement in Go?,if,then,condition,check,1
+What is the syntax for the `else if` part of an `if` statement in Go?,else if (condition) {},elseif condition {},else if condition {},elif condition:,3
+Which keyword starts the `else` part of an `if` statement in Go?,else,otherwise,default,except,1
+Which keyword starts a `for` loop in Go?,loop,while,for,do,3
+What are the three optional components of a `for` loop in Go?,initialization; condition; post,start; stop; step,begin; check; change,init; check; update,1
+How do you write an infinite loop in Go using `for`?,for {},for true {},while true {},loop forever {},1
+Which keyword is used to exit a loop prematurely in Go?,break,exit,stop,end,1
+Which keyword is used to skip the current iteration of a loop and proceed to the next?,continue,skip,next,pass,1
+Which keyword starts a `switch` statement in Go?,switch,case,select,choose,1
+What keyword is used to define a case within a `switch` statement?,case,when,match,option,1
+What happens if no `case` matches the expression in a `switch` statement?,It does nothing,It executes the first case,It executes the `default` case if present,It throws an error,3
+Which keyword is used for the default case in a `switch` statement?,default,else,otherwise,none,1
+Does Go's `switch` statement fall through to the next case by default?,Yes,No,Only for certain types,Only if there's no `break`,2
+Which keyword is used to explicitly fall through to the next case in a `switch` statement?,fallthrough,continue,next,goto,1
+Which keyword can be used with `switch` to evaluate boolean conditions without a switch expression?,switch true {},switch {},switch boolean_expression {},switch condition:,2
+What is the purpose of the `defer` keyword in Go?,To execute a function call after the surrounding function returns,To execute a function call immediately,To execute a function call in a separate goroutine,To prevent a function call from executing,1
+Which keyword is used to transfer control to a labeled statement?,goto,jump,label,move,1
+What is a labeled statement in Go?,A statement with an identifier followed by a colon,A statement inside a loop,A statement in a `switch` block,A statement with a comment,1
+Is the use of `goto` generally encouraged in Go?,Yes,No,Only in specific error handling scenarios,Only for breaking out of nested loops,2

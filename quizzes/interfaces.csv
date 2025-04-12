@@ -1,0 +1,14 @@
+question,option1,option2,option3,option4,answer
+What is an interface in Go?,A type that specifies a set of methods that a type must implement,A concrete type that holds data,A keyword used for defining functions,A way to create global variables,1
+How do you define an interface in Go?,type InterfaceName interface { MethodSignature1; MethodSignature2 },interface InterfaceName { MethodSignature1; MethodSignature2 },type InterfaceName struct { MethodSignature1; MethodSignature2 },interface InterfaceName struct { MethodSignature1; MethodSignature2 },1
+What is a method signature in an interface?,The name and parameter list (including types) and return types of a method,Only the name of the method,Only the parameter types,Only the return types,1
+How does a type indicate that it implements an interface in Go?,By having methods with the same names and signatures as those in the interface,By explicitly declaring that it implements the interface using a keyword,Using a special syntax in the type definition,It's not possible in Go,1
+What is an empty interface in Go?,`interface{}` - an interface with no methods,An interface that cannot be implemented,An interface used for nil values,An interface that can hold any type,1
+What is the benefit of using empty interfaces?,It allows functions to accept values of any type,It enforces strict type checking,It improves performance,It simplifies code,1
+What is an interface value in Go?,A value that holds a concrete value and its dynamic type,A pointer to an interface,A special type of nil value,A string representation of the interface,1
+What is the dynamic type of an interface value?,The actual concrete type held by the interface value at runtime,The interface type itself,Always `interface{}`,The underlying type of the methods in the interface,1
+What is a type assertion in Go?,An operation to extract the underlying concrete value from an interface value,A way to check if a type implements an interface,A way to convert between different interface types,A way to define a new type,1
+What happens if a type assertion to a specific type fails (and the comma-ok idiom is not used)?,It returns the zero value of the target type,It causes a runtime panic,It returns nil,It returns an error,2
+What keyword is used to start a type switch in Go?,switch i.(type) {,type switch i {,switch type of i {,typeof switch i {,1
+What is the `default` case in a type switch?,The case that is executed if none of the other type cases match,The case for the empty interface,The case for nil values,The case for the interface type itself,1
+Why are interfaces useful in Go?,They enable polymorphism and allow for writing more generic and flexible code,They improve performance,They simplify error handling,They are required for concurrency,1

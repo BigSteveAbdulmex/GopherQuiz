@@ -1,0 +1,15 @@
+question,option1,option2,option3,option4,answer
+What is a struct in Go?,A collection of elements of the same type,A user-defined type that groups together variables of different types,A dynamic array,A pointer to a memory location,2
+How do you create an instance (variable) of the `Person` struct?,var p Person,p := Person{},p := new(Person),All of the above,4
+What is the zero value of a struct?,nil,A struct with all fields set to their respective zero values,An empty struct,"",2
+What is a field in a struct?,A function associated with the struct,A variable declared within the struct,A type alias for the struct,A comment describing the struct,2
+What is a method in a struct?,A function associated with the struct type,A variable declared within the struct,A way to initialize the struct,A keyword used in struct definition,1
+Can a struct have fields of different data types?,Yes,No,Only if they are primitive types,Only if they are pointer types,1
+What is an anonymous field in a struct?,A field declared without a name,A field that cannot be accessed directly,A field whose type is also a struct,A field that is automatically initialized,3
+How do you access a field of an anonymous struct field?,Using the type name as the field name,Using the anonymous field's variable name,Anonymous fields cannot be accessed directly,Using an index,1
+What is a struct literal?,A way to declare and initialize a struct value,A keyword for defining struct types,A function that creates a struct,A comment describing a struct,1
+Are structs in Go passed by value or by reference to functions by default?,By value,By reference,It depends on the size,It depends on whether it has pointer fields,1
+How can you pass a struct by reference to a function?,By passing a pointer to the struct,By using the `ref` keyword,Structs are always passed by reference,You cannot pass structs by reference,1
+Can a struct embed another struct?,Yes,No,Only if the embedded struct is anonymous,Only if the embedded struct is of a different type,1
+Can a struct embed a pointer to another struct?,Yes,No,Only if the pointer is not nil,Only if the pointed-to struct is of the same type,1
+What is the use case for embedding structs in Go?,To achieve a form of composition and code reuse,To create inheritance hierarchies,To reduce the size of structs,To improve performance,1

@@ -1,0 +1,22 @@
+question,option1,option2,option3,option4,answer
+How do you start a new goroutine in Go?,go myFunction(),thread myFunction(),async myFunction(),start myFunction(),1
+Do goroutines run concurrently or in parallel?,Concurrency is the ability to handle multiple things at once; parallelism is doing multiple things at the same time. Goroutines enable both.,Goroutines always run in parallel,Goroutines always run concurrently but never in parallel,They run sequentially,1
+What is the purpose of the `go` keyword?,To execute a function in a new goroutine,To define a global variable,To start a new program,To indicate the beginning of a loop,1
+What is a channel in Go?,A mechanism for goroutines to communicate and synchronize,A shared memory space between goroutines,A way to manage the execution order of goroutines,A type of error handling,1
+How do you declare a channel that can send and receive integer values?,ch := make(chan int),ch := make(channel int),ch := chan int,var ch chan int,1
+What is the difference between buffered and unbuffered channels?,Unbuffered channels block sender and receiver until both are ready; buffered channels have a capacity to store values,Buffered channels are faster than unbuffered channels,Unbuffered channels can only send one value,Buffered channels can only receive one value,1
+What happens when you send a value to a full buffered channel?,It blocks until there is space,It overwrites the oldest value,It discards the new value,It causes a runtime error,1
+What happens when you receive a value from an empty unbuffered channel?,It blocks until a value is sent,It returns the zero value,It causes a runtime error,It returns nil,1
+How do you close a channel `ch`?,close(ch),ch.close(),close <- ch,end(ch),1
+What happens when you try to send a value to a closed channel?,It causes a runtime panic,It is silently discarded,It returns an error,It blocks indefinitely,1
+What happens when you try to receive a value from a closed channel?,It returns the zero value of the channel's type immediately,It blocks indefinitely,It causes a runtime error,It returns nil,1
+How do you iterate over values received from a channel until it's closed?,for v := range ch {},while v := <- ch {},loop ch into v {},foreach v in ch {},1
+What is a mutex in Go?,A mutual exclusion lock used to protect shared resources from concurrent access,A type of channel,A mechanism for signaling between goroutines,A way to define critical sections of code,1
+How do you acquire a mutex lock named `mu`?,mu.Lock(),lock(mu),mu.Acquire(),mu <- lock,1
+How do you release a mutex lock named `mu`?,mu.Unlock(),unlock(mu),mu.Release(),<- mu unlock,1
+What is a `WaitGroup` in Go?,A synchronization primitive to wait for a collection of goroutines to finish,A way to group goroutines,A type of channel with a fixed number of senders,A mechanism for ordered execution of goroutines,1
+How do you add a goroutine to a `WaitGroup` named `wg`?,wg.Add(1),wg.Start(),wg.Increment(),wg <- add,1
+How do you signal that a goroutine has finished its execution in a `WaitGroup` named `wg`?,wg.Done(),wg.Finish(),wg.Decrement(),wg <- done,1
+How do you wait for all goroutines in a `WaitGroup` named `wg` to complete?,wg.Wait(),wg.Join(),wg.Block(),wg.Await(),1
+What is the `select` statement in Go?,A control structure that allows a goroutine to wait on multiple communication operations,A way to select the fastest goroutine,A mechanism for prioritizing channel operations,A way to handle errors in goroutines,1
+What is a common use case for the `select` statement?,Handling timeouts on channel operations,Sending to multiple channels simultaneously,Receiving from multiple channels simultaneously,All of the above,4
